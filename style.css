@@ -1,0 +1,32 @@
+/* banner header */
+
+#banner-header img{max-width: 100%;}
+/* end banner header */
+
+/* event new book */
+#event-new-book{background-image: url('img/event-new-book/bg.png');padding-top: 60px;}
+#event-new-book .introduce-event-book .title img{max-width: 100%;}
+#event-new-book .introduce-event-book .depcription .item{text-align: center}
+#event-new-book .introduce-event-book .depcription .item .depcrip-arrow span{text-transform: uppercase;font-size: 30px;font-weight: bold;color: #bd232a;}
+#event-new-book .introduce-event-book .depcription .item .arrow{clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);background-color: #bd232a;height: 40px;color: white;padding-top: 10px;padding-right: 50px;text-transform: uppercase;font-size: 0.8rem;margin-top: 23px;}
+#event-new-book .introduce-event-book .depcription .item .depcrip-arrow .p-two{float: left;margin-top: -20px;}
+#event-new-book .introduce-event-book .depcription .item .depcrip-arrow .p-one{margin-top: 18px;float: left;}
+#event-new-book .order-book {margin-top: 50px;padding-bottom: 50px;}
+#event-new-book .order-book .content{width: 100%;height: 100%;background-color: white;border-radius: 25px;margin-bottom: 100px;}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-one{font-weight: bold;color: #bd232a;float: left;;padding-top: 20px;font-style: italic;}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-two{display: block;text-transform: uppercase;float: left;font-weight: bold;color: #bd232a;}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-three{display: block;float: left;width: 453px;}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-four{display: block;float: left;width: 100%;}
+
+#event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-one{font-weight: bold;color: #bd232a;float: left;font-style: italic;padding-top: 24px;}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-two{font-weight: bold;float: left;width: 453px}
+#event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-three{display: block;float: left;width: 100%;}
+
+/* end event new book */
+
+/* reason */
+#reason{background-image: url('img/reason/bg.png');}
+#reason .title {display: flex;justify-content: center;padding-top: 50px;}
+#reason .title h1{text-transform: uppercase;color: white;width: 645px;text-align: center;margin-top: 50px;}
+#reason .title span{color: #eab848;}
+/* end reason */
