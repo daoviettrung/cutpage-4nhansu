@@ -54,5 +54,92 @@
 /* end human resource management book   */
 
 /* content book */
-#content-book {background-image: url('img/book-manage/bg.png');}
+#content-book {background-image: url('img/content-book/bg.png');}
+#content-book .content {display: flex;justify-content: center;padding-top: 60px;padding-bottom: 50px;}
+#content-book .content h2{text-transform: uppercase;color: white;padding-left: 20px;font-weight: bold;padding-top: 20px;}
 /* end content book */
+
+/* right-recruitment-book */
+#right-recruitment-book .content .depcrip .title{display: flex;}
+#right-recruitment-book .content .depcrip .title .title-infor h3{color:#1b2c59 ;text-transform: uppercase;font-weight: bold;padding-top: 101px;}
+#right-recruitment-book .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
+#right-recruitment-book .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
+#right-recruitment-book .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-right: solid #1c2d5a;}
+#right-recruitment-book .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;}
+#right-recruitment-book .content .depcrip .content-text .item{display: flex;margin-top: 100px;height: 18px}
+#right-recruitment-book .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
+#right-recruitment-book .content .depcrip .content-text .item p{margin-left: 20px;}
+#right-recruitment-book .content .depcrip .content-text .item span{font-weight: bold;}
+#right-recruitment-book .content .image img{max-width: 100%;margin-top: 282px;}
+#right-recruitment-book .content .image .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#right-recruitment-book .content .image .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 38%;font-weight: bold;}
+/* end right-recruitment-book */
+
+/* mbti */
+#mbti{background-image: url('img/MBTI/bg.png');margin-top: 100px;}
+#mbti .content{padding-top: 30px;}
+#mbti .content .depcrip .title{display: flex;}
+#mbti .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-left: solid #1c2d5a;}
+#mbti .content .depcrip .title .title-number span{font-size: 7rem;color: #cb2428;}
+#mbti .content .depcrip .title .title-infor{margin-left: 20px;}
+#mbti .content .depcrip .title .title-infor h3{color:#1b2c59 ;text-transform: uppercase;font-weight: bold;padding-top: 101px;}
+#mbti .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
+#mbti .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
+#mbti .content .depcrip .content-text{margin-top: 40px;}
+#mbti .content .depcrip .content-text .item{display: flex;height: 18px;margin-top: 70px;}
+#mbti .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
+#mbti .content .depcrip .content-text h6{text-transform: uppercase;font-weight: bold;}
+#mbti .content .depcrip .content-text .item p{margin-left: 20px;}
+#mbti .content .depcrip .content-text .item span{font-weight: bold;}
+#mbti .content .depcrip .content-text .last{margin-bottom: 100px;}
+#mbti .content .image img{max-width: 100%;margin-top: 340px;}
+#mbti .content .image .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#mbti .content .image .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 38%;font-weight: bold;}
+/* end  mbti */
+
+/* book three */
+#book-three .content .depcrip .title{display: flex;}
+#book-three .content .depcrip .title .title-infor h3{color:#1b2c59 ;text-transform: uppercase;font-weight: bold;padding-top: 101px;}
+#book-three .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
+#book-three .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
+#book-three .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-right: solid #1c2d5a;}
+#book-three .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;}
+#book-three .content .depcrip .content-text .item{display: flex;margin-top: 60px;height: 18px}
+#book-three .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
+#book-three .content .depcrip .content-text .item p{margin-left: 20px;}
+#book-three .content .depcrip .content-text .item span{font-weight: bold;}
+#book-three .content .depcrip .content-text .last{margin-bottom: 100px;}
+#book-three .content .image img{max-width: 100%;margin-top: 282px;}
+#book-three .content .image .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#book-three .content .image .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 38%;font-weight: bold;}
+/* end book three */
+
+/* leadership-capacity-building */
+#leadership-capacity-building{background-image: url('img/leadershipcapacity-building/bg.png');}
+#leadership-capacity-building .content .depcrip .title{display: flex;}
+#leadership-capacity-building .content .depcrip .title .title-infor h3{color:#1b2c59 ;text-transform: uppercase;font-weight: bold;padding-top: 101px;}
+#leadership-capacity-building .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
+#leadership-capacity-building .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
+#leadership-capacity-building .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-left: solid #1c2d5a;}
+#leadership-capacity-building .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;}
+#leadership-capacity-building .content .depcrip .content-text .item{display: flex;margin-top: 70px;height: 18px}
+#leadership-capacity-building .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
+#leadership-capacity-building .content .depcrip .content-text .item p{margin-left: 20px;}
+#leadership-capacity-building .content .depcrip .content-text .item span{font-weight: bold;}
+#leadership-capacity-building .content .depcrip .content-text .last{margin-bottom: 100px;}
+#leadership-capacity-building .content .image img{max-width: 100%;margin-top: 282px;}
+#leadership-capacity-building .content .image .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#leadership-capacity-building .content .image .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 38%;font-weight: bold;}
+/* end leadership-capacity-building */
+
+/* author */
+#author{background-image: url('img/author/bg.png');}
+#author .title{display: flex;justify-content: center;padding-top: 20px;}
+#author .title h2{color: white;text-transform: uppercase;margin-top: 25px;margin-left: 20px;}
+#author .content{margin-top: 100px;}
+#author .content .line-one{display: flex;text-align: center;}
+#author .content .line-one .item{margin-left: 100px;}
+#author .content .line-one .item img{max-width: 100%;margin-top: 10px;}
+#author .content .line-one .item .name-author{background-color: white;width: 100% ;height: 40px;border-radius: 25px;text-align: center;padding-top: 10px;color: #1c2d5a;font-weight: bold;margin-top: 10px;}
+#author .content .line-one .item a{color: white;font-size: 1rem;text-transform: uppercase;margin-top: 20px}
+/* end author */
