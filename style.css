@@ -146,7 +146,18 @@
 #author .content .line .item a{color: white;font-size: 1rem;text-transform: uppercase;margin-top: 20px}
 #author .content .last{padding-bottom: 100px;}
 /* end author */
-
+/* benefits */
+#benefits .title {display: flex;justify-content: center;padding-top: 50px;}
+#benefits .title h2{text-transform: uppercase;color: #1b2c59;padding-left: 20px;text-align: center;margin-top: 50px;font-weight: bold;}
+#benefits .content img{max-width: 100%;}
+#benefits .content .depcrip-text .p-one{width: 175px;position: absolute;margin-top: -322px;}
+#benefits .content .depcrip-text .p-two{margin-left: 258px;width: 175px;position: absolute;margin-top: -322px;}
+#benefits .content .depcrip-text .p-three{margin-left: 484px;width: 175px;position: absolute;margin-top: -322px;}
+#benefits .content .depcrip-text .p-four{margin-left: 710px;width: 175px;position: absolute;margin-top: -322px;}
+#benefits .content .depcrip-text .p-five{margin-left: 944px;width: 175px;position: absolute;margin-top: -322px;}
+#benefits .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#benefits .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 17%;font-weight: bold;}
+/* end benesits */
 /* slide */
 #slide{background-image: url('img/slide/bg.png');}
 #slide .title{display: flex;justify-content: center;padding-top: 20px;}
