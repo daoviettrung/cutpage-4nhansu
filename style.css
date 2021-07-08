@@ -135,7 +135,7 @@
 /* author */
 #author{background-image: url('img/author/bg.png');}
 #author .title{display: flex;justify-content: center;padding-top: 20px;}
-#author .title h2{color: white;text-transform: uppercase;margin-top: 25px;margin-left: 20px;}
+#author .title h2{color: white;text-transform: uppercase;margin-top: 25px;margin-left: 20px;font-weight: bold;}
 #author .content{margin-top: 100px;}
 #author .content .line{display: flex;text-align: center;}
 #author .content .line .item{margin-left: 100px;}
@@ -148,7 +148,7 @@
 /* slide */
 #slide{background-image: url('img/slide/bg.png');}
 #slide .title{display: flex;justify-content: center;padding-top: 20px;}
-#slide .title h2{color: white;text-transform: uppercase;margin-top: 25px;margin-left: 20px;}
+#slide .title h2{color: white;text-transform: uppercase;margin-top: 25px;margin-left: 20px;font-weight: bold;}
 #slide .content{margin-top: 70px;}
 #slide .content .item iframe{max-width: 100%;height: 100%;}
 #slide .content .owl-carousel .owl-next{font-size: 500%;margin-left: 1060px;margin-top: -146px;position: absolute;color: #7c828e;}
@@ -156,3 +156,31 @@
 #slide .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
 #slide .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 17%;font-weight: bold;}
 /* end slide */
+
+/* commitment */
+#endow{background-image: url('img/commitment/bg.png');}
+#commitment img{max-width: 100%;height: 100%;}
+#commitment .title{display: flex;justify-content: center;padding-top: 80px;}
+#commitment .title h2{text-transform: uppercase;color: #1b2c59;font-weight: bold;padding-top: 20px;margin-left: 20px;}
+#commitment .title span{color: #bd222a;}
+#commitment .content {margin-top: 70px;}
+#commitment .content .depcrip .item{display: flex;margin-bottom: 50px;}
+#commitment .content .depcrip .item img{padding-top: 30px;margin-bottom: 50px;}
+#commitment .content .depcrip .item .depcrip-text{background-color: white;width: 100%;border: solid 2px #cb575d;border-radius: 25px;text-transform: uppercase;margin-left: 20px;}
+#commitment .content .depcrip .item .depcrip-text h5{font-weight: bold;padding-top: 10px;padding-left: 10px;}
+#commitment .content .depcrip .item .depcrip-text p{float: left;padding-left: 10px;}
+#commitment .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#commitment .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 17%;font-weight: bold;}
+/* end commitment */
+
+/*endow */
+#endow{background-image: url('img/endow/bg.png');}
+#endow img{max-width: 100%;height: 100%;}
+#endow .title{display: flex;justify-content: center;padding-top: 80px;}
+#endow .title h2{text-transform: uppercase;color: white;font-weight: bold;padding-top: 20px;margin-left: 20px;}
+#endow .content .div-register .depcrip .item{text-align: center}
+#endow .content .div-register .depcrip .item .arrow{clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);background-color: #bd232a;height: 40px;color: white;padding-top: 10px;padding-right: 50px;text-transform: uppercase;font-size: 0.8rem;margin-top: 23px;}
+#endow .content .div-register .depcrip .item .depcrip-arrow .p-two{float: left;margin-top: -20px;}
+#endow .content .div-register .depcrip .item .depcrip-arrow .p-one{margin-top: 18px;float: left;}
+#endow .content .div-register .depcrip .item .depcrip-arrow span{text-transform: uppercase;font-size: 30px;font-weight: bold;color: #bd232a;}
+/* end endow */
