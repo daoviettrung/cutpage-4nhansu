@@ -178,9 +178,31 @@
 #endow img{max-width: 100%;height: 100%;}
 #endow .title{display: flex;justify-content: center;padding-top: 80px;}
 #endow .title h2{text-transform: uppercase;color: white;font-weight: bold;padding-top: 20px;margin-left: 20px;}
+#endow .content{margin-top: 70px;padding-bottom: 50px;}
 #endow .content .div-register .depcrip .item{text-align: center}
 #endow .content .div-register .depcrip .item .arrow{clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);background-color: #bd232a;height: 40px;color: white;padding-top: 10px;padding-right: 50px;text-transform: uppercase;font-size: 0.8rem;margin-top: 23px;}
 #endow .content .div-register .depcrip .item .depcrip-arrow .p-two{float: left;margin-top: -20px;}
 #endow .content .div-register .depcrip .item .depcrip-arrow .p-one{margin-top: 18px;float: left;}
-#endow .content .div-register .depcrip .item .depcrip-arrow span{text-transform: uppercase;font-size: 30px;font-weight: bold;color: #bd232a;}
+#endow .content .div-register .depcrip .item .depcrip-arrow  p{color: white;}
+#endow .content .div-register .depcrip .item .depcrip-arrow span{text-transform: uppercase;font-size: 30px;font-weight: bold}
+#endow .content .div-register .form-register{padding-top: 30px;padding-left: 120px}
+#endow .content .div-register .form-register .tag-input{margin-bottom: 15px;}
+#endow .content .div-register .form-register .tag-input img{position: absolute;margin-left: 20px;height: 6%;padding-top: 5px;}
+#endow .content .div-register .form-register .tag-input .css-ip{width: 100%;border-radius: 25px;border: white;height: 35px;background-color: white;padding-right: 40px;}
+#endow .content .div-register .form-register .tag-input select {opacity: 1;padding-left: 70px;font-weight: bold;color: #2a3a64 !important;}
+::placeholder {opacity: 1;padding-left: 70px;font-weight: bold;color: #2a3a64;}
+#endow .content .div-register .form-register .button-register{text-align: center; padding-top: 5%; padding-bottom: 10px;}
+#endow .content .div-register .form-register .button-register .text{border-radius: 25px;border: none;text-transform: uppercase;background-color: #d51f29;color: white;font-size: 1rem; padding: 5px;width: 43%;font-weight: bold;}
+#endow .content .depcrip-bonus{width: 100%;background-color: white;margin-top: 50px;border-radius: 25px;}
+#endow .content .depcrip-bonus .video {padding-top: 50px;}
+#endow .content .depcrip-bonus .video iframe{width: 90%;height: 300px;}
+#endow .content .depcrip-bonus .depcrip-text{padding-left: 30px}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-one{font-weight: bold;color: #bd232a;float: left;;padding-top: 20px;font-style: italic;}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-two{display: block;text-transform: uppercase;float: left;font-weight: bold;color: #bd232a;}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-three{display: block;float: left;width: 453px;font-weight: 600}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-four{display: block;float: left;width: 100%;font-weight: 600}
+
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-one{font-weight: bold;color: #bd232a;float: left;font-style: italic;padding-top: 24px;}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-two{font-weight: bold;float: left;width: 453px}
+#endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-three{display: block;float: left;width: 100%;font-weight: bold}
 /* end endow */
