@@ -149,6 +149,7 @@
 /* benefits */
 #benefits .title {display: flex;justify-content: center;padding-top: 50px;}
 #benefits .title h2{text-transform: uppercase;color: #1b2c59;padding-left: 20px;text-align: center;margin-top: 50px;font-weight: bold;}
+#benefits .content{margin-top: 50px;}
 #benefits .content img{max-width: 100%;}
 #benefits .content .depcrip-text .p-one{width: 175px;position: absolute;margin-top: -322px;}
 #benefits .content .depcrip-text .p-two{margin-left: 258px;width: 175px;position: absolute;margin-top: -322px;}
@@ -230,6 +231,11 @@
     #event-new-book .introduce-event-book .depcription .item .depcrip-arrow .p-one {font-size: 0.9rem;}
     #event-new-book .introduce-event-book .depcription .item .depcrip-arrow .p-two {font-size: 0.9rem;}
     #event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-three {width: 400px;}
+    #benefits .content .depcrip-text .p-one {width: 155px;margin-top: -285px;}
+    #benefits .content .depcrip-text .p-two {margin-left: 209px;width: 155px;margin-top: -285px;}
+    #benefits .content .depcrip-text .p-three {margin-left: 397px;width: 155px;margin-top: -285px;}
+    #benefits .content .depcrip-text .p-four {margin-left: 588px;width: 155px;margin-top: -285px;}
+    #benefits .content .depcrip-text .p-five {margin-left: 777px;width: 155px;margin-top: -285px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -250,6 +256,12 @@
     #author .content .line .item {margin-left: 32px;}
     #author .content .line .item .name-author {font-size: 0.8rem;}
     #author .content .line .item a {font-size: 0.7rem;}
+    #benefits .content .depcrip-text .p-one {width: 109px;margin-top: -224px;font-size: 0.6rem;}
+    #benefits .content .depcrip-text .p-two {margin-left: 154px;width: 109px;margin-top: -224px;font-size: 0.6rem;}
+    #benefits .content .depcrip-text .p-three {margin-left: 295px;width: 109px;margin-top: -224px;font-size: 0.6rem;}
+    #benefits .content .depcrip-text .p-four {margin-left: 429px;width: 109px;margin-top: -224px;font-size: 0.6rem;}
+    #benefits .content .depcrip-text .p-five {margin-left: 573px;width: 109px;margin-top: -224px;font-size: 0.6rem;}
+    #benefits .button-register .text {width: 25%;}
     #commitment .title h2 {text-align: center;}
     #commitment .title {margin-left: 43px;}
     #commitment img {height: 61%;}
@@ -260,22 +272,55 @@
     #endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-three {width: 280px;}
     #endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-two {width: 280px}
 }
-
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 540px) {
     #reason .content .item .img-first {display: none;}
     #reason .content .item .img-last {display: none;}
-    #reason .content .item div {padding-left: 30px;padding-right: 30px;}
+    #reason .button-register .text {width: 32%;}
     #right-recruitment-book .content .image img {margin-top: 61px;}
     #mbti .content .image img {margin-top: 0px;}
     #book-three .content .image img {margin-top: 74px;}
     #leadership-capacity-building .content .image img {margin-top: 17px;}
+    #benefits .content img{display: none;}
+    #benefits .content .depcrip-text p{display: block ;}
+    #benefits .content .depcrip-text div{width: 100%;background-color:#acacbd;border-radius: 25px;}
+    #benefits .content .depcrip-text .p-one {width: 361px;position: unset;margin-top: 97px;padding: 20px;}
+    #benefits .content .depcrip-text .p-two {width: 361px;position: unset;margin-top: 50px;padding: 20px;margin-left: 6px;}
+    #benefits .content .depcrip-text .p-three {width: 361px;position: unset;margin-top: 50px;padding: 20px;margin-left: 6px;}
+    #benefits .content .depcrip-text .p-four {width: 361px;position: unset;margin-top: 50px;padding: 20px;margin-left: 6px;}
+    #benefits .content .depcrip-text .p-five {width: 361px;position: unset;margin-top: 50px;padding: 20px;margin-left: 6px;}
+    #reason .content .item div {padding-left: 30px;padding-right: 30px;}
     #author .content .line .item .name-author {font-size: 0.7rem;}
     #author .content .line .item a {font-size: 0.6rem;}
     .owl-carousel.owl-drag .owl-item {text-align: center;}
+    #benefits .button-register .text {width: 43%;}
     #slide .button-register .text {width: 42%;}
     #commitment .button-register .text { width: 45%;}
     #leadership-capacity-building .content .image{height: 50%;}
     #endow .content .div-register .depcrip .item .depcrip-arrow .p-two {margin-top: 0px;}
     #commitment img {display: none;}
     #endow .content .div-register .form-register {padding-left: 0px;}
+    #endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-two {width: 453px;}
+    #event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-two {width: 453px;}
+}
+@media only screen and (max-width: 414px) {
+    #event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-two {width: 254px;}
+    #reason .button-register .text {width: 40%;}
+    #book-management .button-register .text {width: 39%;}
+    #endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-two {width: 254px;}
+}
+
+@media only screen and (max-width: 375px) {
+    #benefits .content .depcrip-text .p-one {width: 318px;}
+    #benefits .content .depcrip-text .p-two {width: 318px;}
+    #benefits .content .depcrip-text .p-three {width: 318px;}
+    #benefits .content .depcrip-text .p-four {width: 318px;}
+    #benefits .content .depcrip-text .p-five {width: 318px;}
+}
+@media only screen and (max-width: 320px) {
+    #event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-three {width: 233px;}
+    #reason .content .item div {padding: 30px;}
+    #reason .content .item div {height: 149px;}
+    #reason .button-register .text {width: 54%;}
+    #book-management .button-register .text {width: 53%;}
+    #right-recruitment-book .content .image .button-register .text {width: 52%;}
 }
