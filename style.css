@@ -66,7 +66,7 @@
 #right-recruitment-book .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
 #right-recruitment-book .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
 #right-recruitment-book .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-right: solid #1c2d5a;}
-#right-recruitment-book .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;}
+#right-recruitment-book .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;padding-right: 20px;}
 #right-recruitment-book .content .depcrip .content-text .item{display: flex;margin-top: 100px;height: 18px}
 #right-recruitment-book .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
 #right-recruitment-book .content .depcrip .content-text .item p{margin-left: 20px;}
@@ -82,7 +82,7 @@
 #mbti .content{padding-top: 30px;}
 #mbti .content .depcrip .title{display: flex;}
 #mbti .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-left: solid #1c2d5a;}
-#mbti .content .depcrip .title .title-number span{font-size: 7rem;color: #cb2428;}
+#mbti .content .depcrip .title .title-number span{font-size: 7rem;color: #cb2428;padding-left: 30px;}
 #mbti .content .depcrip .title .title-infor{margin-left: 20px;}
 #mbti .content .depcrip .title .title-infor h3{color:#1b2c59 ;text-transform: uppercase;font-weight: bold;padding-top: 101px;}
 #mbti .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
@@ -105,7 +105,7 @@
 #book-three .content .depcrip .title .title-infor h5{font-weight: bold;color: #bd232a;}
 #book-three .content .depcrip .title .title-infor h6{font-weight: bold;color: #bd232a;}
 #book-three .content .depcrip .title .title-number{margin-top: 59px;border-top: solid #1b2c59;border-right: solid #1c2d5a;}
-#book-three .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;}
+#book-three .content .depcrip .title .title-number span{font-size: 7rem;padding-left: 30px;color: #cb2428;padding-right: 20px;}
 #book-three .content .depcrip .content-text .item{display: flex;margin-top: 60px;height: 18px}
 #book-three .content .depcrip .content-text .item .arrow-right{border-top: 8px solid transparent;border-bottom: 8px solid transparent;border-left: 24px solid #cb2429;margin-top: 5px;}
 #book-three .content .depcrip .content-text .item p{margin-left: 20px;}
@@ -265,4 +265,6 @@
     #commitment .button-register .text { width: 45%;}
     #leadership-capacity-building .content .image{height: 50%;}
     #endow .content .div-register .depcrip .item .depcrip-arrow .p-two {margin-top: 0px;}
+    #commitment img {display: none;}
+    #endow .content .div-register .form-register {padding-left: 0px;}
 }
