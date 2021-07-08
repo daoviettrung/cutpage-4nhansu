@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
     <link rel="stylesheet" href="style.css" />
     <title>abc</title>
 </head>
@@ -604,7 +606,7 @@
             </div>
             <div class="content">
                 <div class="container">
-                    <div class="line-one">
+                    <div class="line">
                         <div class="item">
                             <img src="img/author/line-one/1.png">
                             <div class="name-author">Mr. TONY DZUNG</div>
@@ -618,25 +620,25 @@
                         </div>
                         <div class="item">
                             <img src="img/author/line-one/3.png">
-                            <div class="name-author">Mr. Trần Trung Hiếu</div>
+                            <div class="name-author">Mr. OTTO KROEGER</div>
                             <a>xem chi tiết</a>
                         </div>
                     </div>
-                    <div class="line-one">
+                    <div class="line mt-5 last">
                         <div class="item">
                             <img src="img/author/line-two/4.png">
-                            <div class="name-author">Mr. TONY DZUNG</div>
+                            <div class="name-author">Ms. JANET M. THUESEN</div>
                             <a>xem chi tiết</a>
 
                         </div>
                         <div class="item">
                             <img src="img/author/line-two/5.png">
-                            <div class="name-author">Mr. Trần Trung Hiếu</div>
+                            <div class="name-author">Mr. HILE RUTLEDGE</div>
                             <a>xem chi tiết</a>
                         </div>
                         <div class="item">
                             <img src="img/author/line-two/6.png">
-                            <div class="name-author">Mr. Trần Trung Hiếu</div>
+                            <div class="name-author">Mr. PETER G. NORTHOUSE</div>
                             <a>xem chi tiết</a>
                         </div>
                     </div>
@@ -646,11 +648,82 @@
     </div>
     <!-- end author -->
 
-    <!-- bootstrap -->
+    <!-- slide -->
+    <div id="slide">
+        <div class="container">
+            <div class="title">
+                <div class="title">
+                    <img src="img/slide/title.png">
+                    <h2>tác giả</h2>
+                </div>
+
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe src="https://www.youtube.com/embed/rtzebRfn0_I"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-register">
+                <button class="text">đăng ký ngay</button>
+            </div>
+        </div>
+    </div>
+    <!-- end slide -->
+
+    <!-- Link js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- end bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+    <!-- end link js -->
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
 </body>
 
 </html>
