@@ -323,4 +323,43 @@
     #reason .button-register .text {width: 54%;}
     #book-management .button-register .text {width: 53%;}
     #right-recruitment-book .content .image .button-register .text {width: 52%;}
+    #right-recruitment-book .content .depcrip .content-text .item p {font-size: 0.8rem;}
+    #mbti .content .depcrip .content-text .item p {font-size: 0.8rem;}
+    #book-three .content .depcrip .content-text .item p {font-size: 0.8rem;}
+    #leadership-capacity-building .content .depcrip .content-text .item p {font-size: 0.8rem;}
+    #author .content .line .item {margin-left: 5px;}
+    #benefits .content .depcrip-text .p-one {width: 256px;}
+    #benefits .content .depcrip-text .p-two {width: 256px;}
+    #benefits .content .depcrip-text .p-three {width: 256px;}
+    #benefits .content .depcrip-text .p-four {width: 256px;}
+    #benefits .content .depcrip-text .p-five {width: 256px;}
+    #benefits .button-register .text {width: 55%;}
+    #endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-three {width: 233px;}
+
+}
+
+@media only screen and (max-width: 280px) {
+    #event-new-book .order-book .content .depcrip-order .depcrip-order-one .p-three {width: 188px;}
+    #event-new-book .order-book .content .depcrip-order .depcrip-order-two .p-two {width: 193px;}
+    #reason .button-register .text {width: 63%;}
+    #right-recruitment-book .content .image .button-register .text {width: 65%;}
+    #mbti {margin-top: 127px;}
+    #mbti .content .depcrip .title .title-infor h3 {font-size: 1.4rem;}
+    #mbti .content .depcrip .content-text .item {margin-top: 97px;}
+    #book-three .content .image .button-register .text {width: 60%;}
+    #leadership-capacity-building .content .image .button-register .text {width: 57%;}
+    #author .content .line .item .name-author {font-size: 0.6rem;}
+    #author .content .line .item a {font-size: 0.5rem;}
+    #benefits .content .depcrip-text .p-one {width: 226px;}
+    #benefits .content .depcrip-text .p-two {width: 226px;}
+    #benefits .content .depcrip-text .p-three {width: 226px;}
+    #benefits .content .depcrip-text .p-four {width: 226px;}
+    #benefits .content .depcrip-text .p-five {width: 226px;}
+    #slide .button-register .text {width: 56%;}
+    #commitment .button-register .text {width: 57%;}
+    #endow .content .div-register .form-register .button-register .text {width: 58%;}
+    #endow .content .depcrip-bonus .depcrip-text .depcrip-order-one .p-three {width: 196px;}
+    #endow .content .depcrip-bonus .depcrip-text .depcrip-order-two .p-two {width: 176px;}
+    #mbti .content .image .button-register .text {width: 61%;}
+    
 }
